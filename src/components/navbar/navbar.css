@@ -1,0 +1,62 @@
+/* Estilos generales de la barra de navegación */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: #494949;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .Logo {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+  
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px; 
+  }
+  
+  .menu li:last-child {
+    margin-right: 0; 
+  }
+  
+  
+  .links-navbar {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: 500;
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+  
+  
+  .links-navbar:hover {
+    color: rgb(90, 118, 128); 
+  }
+  
+  .cart-widget {
+    cursor: pointer; 
+  }
+
+  .cart-number {
+    color: black;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+  }
