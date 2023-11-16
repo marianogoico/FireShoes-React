@@ -1,62 +1,68 @@
-/* Estilos generales de la barra de navegación */
-* {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .navbar {
-    background-color: #494949;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  }
-  
-  .Logo {
-    text-decoration: none;
-    color: #fff; 
-    font-size: 24px; 
-    font-weight: bold; 
-  }
-  
-  
-  .menu {
-    list-style: none;
-    display: flex;
-  }
-  
-  .menu li {
-    margin-right: 20px; 
-  }
-  
-  .menu li:last-child {
-    margin-right: 0; 
-  }
-  
-  
-  .links-navbar {
-    text-decoration: none;
-    color: #ffffff; 
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    font-weight: 500;
-    transition: all 0.15s;
-    cursor: pointer;
-  }
-  
-  
-  .links-navbar:hover {
-    color: rgb(90, 118, 128); 
-  }
-  
-  .cart-widget {
-    cursor: pointer; 
-  }
+/* Estilos generales de la barra de navegación */  
+.navbar {
+  background-color: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+  border-bottom: 1px solid #c7c7c7;
+  margin-bottom: 20px;
+}
 
-  .cart-number {
-    color: black;
-    background-color: #fff;
-    padding: 3px;
-    border-radius: 3px;
-  }
+.Logo {
+  text-decoration: none;
+  color: #000000; 
+  font-size: 24px; 
+  font-weight: bold; 
+}
+
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0; 
+}
+
+
+.links-navbar {
+  text-decoration: none;
+  color: #000000; 
+  font-size: 18px; 
+  font-weight: 500;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+
+.links-navbar:hover {
+  color: rgb(90, 118, 128); 
+}
+
+.cart-widget {
+  cursor: pointer; 
+  position: relative;
+}
+.cart-icon {
+  color: #000000;
+}
+
+.cart-number {
+  position: absolute;
+  top: 20px; 
+  right: -8px; 
+  background-color: #ffffff; 
+  color: #000000; 
+  border-radius: 50%; 
+  padding: 2px 6px; 
+  font-size: 12px; 
+  font-weight: bold;
+  border: 1px solid #8d8d8d;
+}
+

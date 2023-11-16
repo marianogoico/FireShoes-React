@@ -7,21 +7,25 @@
 .detalle {
     display: flex;
     align-items: center;
-    margin: 20px 0 0 20px;
+    justify-content: center;
+    padding: 0 20px 0 20px;
 }
 
 .detalle-texto {
     margin-left: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: first baseline;
-    line-height: 40px;
-    color: aliceblue;
+    line-height: 60px;
+    color: rgb(0, 0, 0);
 }
 
 .detalle-texto h3{
     font-size: 50px;
+}
+
+.detalle-texto p span {
+    font-weight: 600;
 }
 
 .descripcion {
@@ -44,7 +48,6 @@
     font-size: 16px;
     cursor: pointer;
     transition: 0.2s;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .item-count button:hover , .agregar-al-carrito:hover {
@@ -53,7 +56,6 @@
 }
 
 .agregar-al-carrito {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: auto;
     height: auto;
     margin-top: 1rem;
